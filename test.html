@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Responsive
+    </title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        teal: '#38b2ac',
+                        orange: '#ed8936',
+                        addpurpel: '#805ad5',
+                        lightBlue: '#a0e7e5',
+                        addpink: '#ffb3c1',
+                        mintGreen: '#a7f3d0',
+                        navyBlue: '#1a202c',
+                        yellow: '#f6e05e',
+                        lightGray: '#edf2f7'
+
+                    },
+                },
+            },
+        }
+    </script>
+</head>
+
+<body>
+    <div class="bg-teal p-4 grid grid-cols-4 md:grid-cols-8 lg:grid-cols-12 gap-2">
+        <div
+            class="bg-addpink col-span-2 md:col-span-3 lg:col-span-4 aspect-square min-w-[100px] max-w-[300px] p-2 overflow-auto">
+            <p class="text-xs md:text-sm lg:text-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div
+            class="bg-lightBlue col-span-2 md:col-span-5 lg:col-span-8 aspect-[2/1] min-w-[150px] max-w-[500px] p-2 overflow-auto">
+            <p class="text-sm md:text-base lg:text-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+                eiusmod tempor incididunt
+                ut labore et dolore magna aliqua.</p>
+        </div>
+        <div
+            class="bg-mintGreen col-span-4 md:col-span-8 lg:col-span-12 aspect-[4/1] min-w-[200px] max-w-[800px] p-2 overflow-auto">
+            <p class="text-base md:text-lg lg:text-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+                eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat.</p>
+        </div>
+        <div
+            class="bg-yellow col-span-1 md:col-span-2 lg:col-span-3 aspect-[1/2] min-w-[50px] max-w-[150px] p-2 overflow-auto">
+            <p class="text-xs md:text-sm lg:text-base">Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div
+            class="bg-orange col-span-3 md:col-span-6 lg:col-span-9 aspect-square min-w-[180px] max-w-[600px] p-2 overflow-auto">
+            <p class="text-sm md:text-base lg:text-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+                eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat nulla pariatur.</p>
+        </div>
+        <div
+            class="bg-addpurpel col-span-4 md:col-span-4 lg:col-span-6 aspect-[3/1] min-w-[220px] max-w-[700px] p-2 overflow-auto">
+            <p class="text-sm md:text-base lg:text-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+                eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat.</p>
+        </div>
+        <div
+            class="bg-navyBlue col-span-2 md:col-span-2 lg:col-span-3 aspect-[1/1] min-w-[80px] max-w-[250px] p-2 overflow-auto">
+            <p class="text-xs md:text-sm lg:text-base text-white">Lorem ipsum dolor sit amet, consectetur adipiscing
+                elit.</p>
+        </div>
+        <div
+            class="bg-lightGray col-span-2 md:col-span-2 lg:col-span-3 aspect-[1/1] min-w-[80px] max-w-[250px] p-2 overflow-auto">
+            <p class="text-xs md:text-sm lg:text-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+    </div>
+</body>
+
+</html>
